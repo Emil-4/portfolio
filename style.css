@@ -1,0 +1,242 @@
+body{
+    background-color: royalblue;
+}
+body h2 img{
+    margin-right: 1200px;
+    border-radius: 50%;
+    
+}
+.header{
+    background-color: rgb(242, 243, 245);
+    margin-right: 1500px;
+    
+}
+.img{
+    text-align: start;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding-right: 30px;
+    padding-left: 770px;
+    
+    display: flex 
+    
+    
+     
+}
+nav ul li button{
+    height: 10vh;
+    width: 15vh;
+    font-weight: 500;
+    background:linear-gradient(to right, rgb(90, 87, 87), rgb(134, 143, 134), rgb(201, 190, 192))
+    
+    
+    
+    
+}
+nav ul li button a:hover{
+    color: black;
+    font-weight: 700;
+    background: linear-gradient(to right, rgb(102, 98, 98), rgb(214, 208, 209), rgb(96, 98, 102));
+}
+.main {
+    padding-right: 300px;
+    padding-left: 820px;
+    border: 5px solid rgb(222, 224, 222);
+}
+.about{
+    margin-bottom: 400px;
+}
+.main h2{
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px darkblue;
+}
+.main h4{
+    background-color: whitesmoke;
+    text-shadow: 2px 2px 2px ghostwhite;
+}
+.main p{
+    height: 200px;
+    width: 300px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border: 4px solid whitesmoke;
+    background: linear-gradient(to right, rgb(102, 83, 83), rgb(183, 183, 192), royalblue);
+    overflow: scroll;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.main button{
+    height: 10vh;
+    width: 80px;
+    background: lightblue;
+    }
+/* SKILLS */
+.skills_container {
+    row-gap: 2rem;
+    text-align: center;
+  }
+  
+  .skills_subtitle {
+    margin-bottom: var(--mb-2);
+  }
+  
+  .skills_text {
+    margin-bottom: var(--mb-4);
+  }
+  
+  .skills_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: 0.5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  }
+  
+  .skill_icon {
+    font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: var(--first-color);
+  }
+  
+  .skills_name {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    text-shadow: 2px 2px 2px royalblue;
+  }
+  
+  .skill_bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--first-color);
+    height: 0.25rem;
+    border-radius: 0.5rem;
+    z-index: var(--z-back);
+  }
+  
+  .skill_html {
+    width: 95%;
+    background: lightpink;
+  }
+  
+  .skill_css {
+    width: 85%;
+    background: rgb(13, 226, 162);
+  }
+  
+  .skill_js {
+    width: 75%;
+    background: rgb(23, 122, 235);
+  }
+  
+  .skill_ui {
+    width: 85%;
+  }
+  .text h2{
+    text-align: center;
+    color: rgb(243, 235, 243);
+    text-shadow: 2px 2px 2px rgb(81, 79, 82);
+  }
+  .class1{
+    background: linear-gradient(to right, rgb(182, 181, 181), rgb(107, 109, 107), rgb(109, 109, 156));
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    
+  }
+  .class2{
+    background: linear-gradient(to right, rgb(190, 106, 106), rgb(133, 216, 133), rgb(135, 135, 228));
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    
+  }
+  .class3{
+    background: linear-gradient(to right, rgb(230, 227, 77), rgb(188, 236, 188), rgb(77, 77, 80));
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    
+  }
+  .text{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    gap: 10px;
+  }
+  .contact h2{
+    text-align: center;
+    font-weight: bold;
+    background-color: wheat;
+    color: tomato;
+    text-shadow: 2px 2px 1px rgb(32, 32, 32);
+  }
+  .contact1 form{
+    text-align: center;
+    border: 2px solid inherit;
+    background-color: rgb(240, 225, 225);
+    border: 2px solid slategray;
+  }
+  .contact1 form fieldset {
+    height: 200px;
+    width: 400px;
+    background-color: aliceblue;
+
+  }
+  .contact1 form button{
+    border: 2px solid whitesmoke;
+    text-align: center;
+    background-color: violet;
+  }
+  
+ .pro1 h3{
+    text-align: center;
+    background-color: whitesmoke;
+    border: 2px solid teal;
+    font-size: x-large;
+    text-shadow: 2px 2px 3px black;}
+    .pro1 h1{
+        text-align: center;
+        background-color: rgb(68, 67, 67);
+        border: 2px solid rgb(71, 211, 211);
+        font-size: x-large;
+        text-shadow: 2px 2px 3px rgb(161, 34, 34);
+    }
+    .footer h2{
+        text-align: center;
+        background-color: steelblue;
+        color: aliceblue;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
